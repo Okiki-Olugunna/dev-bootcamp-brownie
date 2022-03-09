@@ -2,6 +2,7 @@
 from brownie import APIConsumer, config, network
 from web3 import Web3
 from scripts.helpful_scripts import (
+    BLOCK_CONFIRMATIONS_FOR_VERIFICATION,
     get_account,
     get_contract,
 )

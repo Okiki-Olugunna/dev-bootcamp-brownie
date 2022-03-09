@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from brownie import VRFConsumer, config, network
 from scripts.helpful_scripts import (
+    BLOCK_CONFIRMATIONS_FOR_VERIFICATION,
     get_account,
     get_contract,
 )
